@@ -1,0 +1,80 @@
+h2, h3 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.form-container{
+  backdrop-filter: blur(10px);
+}
+
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.form-buttons button {
+  margin-right: 10px;
+}
+
+.form-container {
+  margin: 20px 0;
+  max-width: 500px;
+}

@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-right: 30px;
+  cursor: default;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.navbar-menu li:hover {
+  background-color: #555;
+}
+
+.navbar-menu li.active {
+  background-color: #007bff;
+}
